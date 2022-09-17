@@ -1,0 +1,47 @@
+/*========== Education ==========*/
+.Education__container{
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+  }
+  
+  .Education__content{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--container_color);
+    border-radius: .5rem;
+    box-shadow: 0 2px 4px rgba(3,74,40,.15);
+    padding: .75rem;
+  }
+  
+  .Education__img{
+    width: 100px;
+    align-self: center;
+    margin-bottom: var(--mb-2);
+  }
+  
+  .Education__name, .Education__date{
+    font-weight: var(--font-semi-bold);
+    color: var(--title_color);
+  }
+  
+  .Education__name{
+    font-size: var(--normal-font-size);
+  }
+  
+  .Education__detail, .Education__date{
+    font-size: var(--small-font-size);
+  }
+  
+  .Education__detail{
+    margin-bottom: var(--mb-1);
+  }
+  
+  .Education__button{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    padding: .625rem .813rem;
+    border-radius: .5rem 0 .5rem 0;
+  }
